@@ -164,13 +164,15 @@ footer {
     .hero {
         display: inline-block;
     }
+    .logo {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0;
+    }
     #About-me,
     .tracy-photo {
         text-align: center;
     }
-    /* .tracy-photo {
-        text-align: center;
-    } */
     .information {
         font-size: 16px;
     }
