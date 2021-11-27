@@ -29,6 +29,7 @@ h2 {
     color: rgb(189, 124, 134);
     font-weight: bold;
     text-align: center;
+    font-size: 25px;
 }
 
 
@@ -64,7 +65,7 @@ h2 {
     padding: 10px 15px;
     color: rgb(189, 124, 134);
     font-weight: bold;
-    font-size: 1.55vw;
+    font-size: 1.5vw;
 }
 
 
@@ -128,4 +129,40 @@ footer {
     padding: 2px;
     max-width: 100%;
     height: auto;
+}
+
+
+/* Media Query for smaller destop sreens and smaller*/
+
+@media screen and (max-width: 980px) {
+    .header nav ul a {
+        font-size: 25px;
+    }
+    .tracy-photo {
+        max-width: 100%;
+        height: auto;
+        margin-left: 10%;
+        padding-top: 25px;
+    }
+}
+
+
+/* Media Query for tables and smaller */
+
+
+/* Media Query for Mobile Phones and Smaller*/
+
+@media screen and (max-width: 575px) {
+    .hero {
+        display: inline-block;
+    }
+    #About-me {
+        text-align: center
+    }
+    .tracy-photo {
+        text-align: center;
+    }
+    .information {
+        font-size: 16px;
+    }
 }
