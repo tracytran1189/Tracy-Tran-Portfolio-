@@ -95,3 +95,23 @@ h2 {
 .zoom:hover {
     transform: scale(1.2);
 }
+
+
+/* footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.information {
+    text-align: righ;
+}
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
