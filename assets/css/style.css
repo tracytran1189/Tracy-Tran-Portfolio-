@@ -3,7 +3,11 @@
 }
 
 body {
-    background-color: black;
+    background-image: url("../../assets/images/background.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 p {
@@ -31,7 +35,7 @@ h2 {
 /*Begin styling header and navigation */
 
 .header {
-    padding: 20px 35px 30px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -39,7 +43,7 @@ h2 {
 }
 
 .header img {
-    padding: 20px;
+    padding: 10px;
     max-width: 100%;
     height: auto;
 }
