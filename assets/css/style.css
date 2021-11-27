@@ -33,12 +33,15 @@ h2 {
 /*Begin styling header and navigation */
 
 .header {
-    padding: 10px;
+    background-color: rgb(189, 124, 134);
+    border-radius: 15px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
     position: sticky;
+    margin-bottom: 1%;
 }
 
 .header img {
@@ -61,7 +64,7 @@ h2 {
 
 .header nav ul a {
     padding: 10px 15px;
-    color: rgb(189, 124, 134);
+    color: black;
     font-weight: bold;
     font-size: 1.5vw;
     text-decoration: none;
@@ -156,15 +159,19 @@ footer {
 /* Media Query for Mobile Phones and Smaller*/
 
 @media screen and (max-width: 575px) {
+    .header {
+        position: relative;
+    }
     .hero {
         display: inline-block;
     }
-    #About-me {
-        text-align: center
-    }
+    #About-me,
     .tracy-photo {
         text-align: center;
     }
+    /* .tracy-photo {
+        text-align: center;
+    } */
     .information {
         font-size: 16px;
     }
