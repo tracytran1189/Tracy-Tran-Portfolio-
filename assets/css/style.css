@@ -8,10 +8,6 @@ body {
     background-color: black;
 }
 
-a {
-    color: white;
-}
-
 p {
     color: white;
     font-size: 16px;
@@ -26,4 +22,39 @@ h2 {
 
 h1 {
     font-size: 30px;
+}
+
+
+/*Begin styling header and navigation */
+
+.header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+.header img {
+    padding: 20px;
+    width: 8%;
+}
+
+.header nav {
+    margin: 7px 0;
+}
+
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header nav ul a {
+    padding: 10px 15px;
+    color: rgb(189, 124, 134);
+    font-weight: bold;
+    font-size: 1.55vw;
 }
