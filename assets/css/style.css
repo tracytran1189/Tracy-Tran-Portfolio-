@@ -108,3 +108,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
+
+.social-media img {
+    padding: 2px;
+    max-width: 100%;
+    height: auto;
+}
