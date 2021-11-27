@@ -10,13 +10,10 @@ body {
     background-position: center;
 }
 
-p {
-    color: white;
-    font-size: 16px;
-}
-
+p,
 div {
     color: white;
+    font-size: 17px;
 }
 
 h1 {
@@ -41,6 +38,7 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
+    position: sticky;
 }
 
 .header img {
@@ -66,6 +64,7 @@ h2 {
     color: rgb(189, 124, 134);
     font-weight: bold;
     font-size: 1.5vw;
+    text-decoration: none;
 }
 
 
@@ -118,6 +117,10 @@ footer {
 
 .information {
     padding: 20px;
+}
+
+.email {
+    padding-bottom: 8px;
 }
 
 .social-media {
