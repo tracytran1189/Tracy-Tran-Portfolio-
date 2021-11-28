@@ -183,22 +183,26 @@ footer {
     .header {
         position: relative;
     }
+    footer,
     .hero {
         display: inline-block;
     }
     .logo {
         width: 100%;
-        text-align: center;
         padding-bottom: 0;
-    }
-    #About-me,
-    .tracy-photo {
-        text-align: center;
     }
     .information {
         font-size: 16px;
     }
     .project {
         flex: 0 1 100%;
+    }
+    * {
+        text-align: center;
+    }
+    .social-media,
+    .header nav ul {
+        justify-content: center;
+        padding: 0;
     }
 }
